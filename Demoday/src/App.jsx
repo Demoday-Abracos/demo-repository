@@ -6,6 +6,7 @@ import Psicologos from './components/psicologos/Psicologos';
 import Footer from './components/home/Footer';
 import Home from './components/home/Home';
 import Cards from './components/cards/Cards';
+import Pagina1 from './components/cards/pag2/pagina1';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='cards' element={<Cards />} />
           <Route path='Psicologos' element={<Psicologos />} />
+          <Route path='hospital' element={<Pagina1/>}/>
         </Routes>
         <Footer />
       </Router>

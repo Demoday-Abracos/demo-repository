@@ -21,11 +21,11 @@
 }
 
 .swiper-button-next {
-    right: -30px;
+    right: -50px;
 }
 
 .swiper-button-prev {
-    left: -30px;
+    left: -50px;
 }
 
 .swiper-button-next,
@@ -45,4 +45,42 @@
 .swiper-button-prev::after {
 
     color: #fff;
+}
+
+/*Pagina dos cards*/
+
+.img-fundo {
+    background: url(../../../public/assets/images/imagem-cards.svg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 100px 0 0 30px;
+}
+.img-cards {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    background-color: var(--terciary-color);
+    border-radius: 40px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.img-cards:hover {
+    transform: scale(1.05);
+}
+.img-cards h3 {
+    color: #fff;
+}
+.img-cards img {
+    width: 200px;
+}
+.Sobre-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.titulo-card {
+    margin: 20px 0 20px 70px;
 }
